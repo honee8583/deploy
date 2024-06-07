@@ -29,6 +29,7 @@ public class HealthController {
         responseData.put("serverAddress", serverAddress);
         responseData.put("serverPort", serverPort);
         responseData.put("env", env);
+        responseData.put("name", "leedahoon");
 
         return ResponseEntity.ok(responseData);
     }
